@@ -91,4 +91,4 @@ const output = calculateGradesAndAverage(studentScore);
 console.log(output);
 
 
-module.exports = matPhyChem;
+module.exports = { matPhyChem, relEducation, engSwaComp };
