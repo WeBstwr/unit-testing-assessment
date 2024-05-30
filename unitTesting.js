@@ -60,7 +60,6 @@ const studentScore = {
   comp: 82,
 };
 
-
 function calculateGradesAndAverage(studentScore) {
   const output = { name: studentScore.name };
 
@@ -90,7 +89,6 @@ function calculateGradesAndAverage(studentScore) {
 const output = calculateGradesAndAverage(studentScore);
 
 console.log(output);
-
 
 module.exports = {
   matPhyChem,

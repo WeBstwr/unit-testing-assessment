@@ -43,25 +43,27 @@ describe("engSwaComp", () => {
 
 describe("calculateGradesAndAverage", () => {
   test("returns the grade and average points", () => {
-    expect(calculateGradesAndAverage({
-          name: "Webster Ifedha",
-          math: 78,
-          eng: 65,
-          kis: 69,
-          phy: 67,
-          che: 56,
-          re: 89,
-          comp: 82,
-        })).toEqual({
-            name: 'Webster Ifedha',
-            maths: 'A',
-            re: 'A',
-            eng: 'B',
-            kis: 'B',
-            phy: 'B',
-            che: 'C',
-            comp: 'A',
-            avgPts: 72
-          })
+    expect(
+      calculateGradesAndAverage({
+        name: "Webster Ifedha",
+        math: 78,
+        eng: 65,
+        kis: 69,
+        phy: 67,
+        che: 56,
+        re: 89,
+        comp: 82,
+      }),
+    ).toEqual({
+      name: "Webster Ifedha",
+      maths: "A",
+      re: "A",
+      eng: "B",
+      kis: "B",
+      phy: "B",
+      che: "C",
+      comp: "A",
+      avgPts: 72,
+    });
   });
 });
