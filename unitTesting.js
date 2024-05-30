@@ -89,3 +89,6 @@ function calculateGradesAndAverage(studentScore) {
 const output = calculateGradesAndAverage(studentScore);
 
 console.log(output);
+
+
+module.exports = matPhyChem;
