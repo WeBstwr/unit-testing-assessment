@@ -53,12 +53,13 @@ const studentScore = {
   name: "Webster Ifedha",
   math: 78,
   eng: 65,
-  kis: 48,
+  kis: 69,
   phy: 67,
   che: 56,
   re: 89,
   comp: 82,
 };
+
 
 function calculateGradesAndAverage(studentScore) {
   const output = { name: studentScore.name };
@@ -91,4 +92,9 @@ const output = calculateGradesAndAverage(studentScore);
 console.log(output);
 
 
-module.exports = { matPhyChem, relEducation, engSwaComp };
+module.exports = {
+  matPhyChem,
+  relEducation,
+  engSwaComp,
+  calculateGradesAndAverage,
+};
